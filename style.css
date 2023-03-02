@@ -1,0 +1,318 @@
+                        /* NAVBAR */
+
+.cV {
+    color: #7CFC00;
+    text-align: center;
+}
+
+.navbar{
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #023020;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.navbar a{
+    padding: 6px, 8px, 6px, 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    text-align: left;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar a:hover {
+    color: #7CFC00;
+}
+
+.mainPage {
+    margin-left: 210px; 
+    padding: 0px;
+}
+
+.homeText p{
+    margin-bottom: 0;
+}
+
+.navDiv {
+    height: 260px;
+    width: 10px;
+    background-color: #f1f1f1;
+    float: left;
+    margin: 10px;
+}
+
+                            /* BODY */
+
+body{
+    background-color: #4F7942;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+                            /* CONTENT_HOME PAGE */
+
+.homeText {
+    background-color: #023020;
+    color: #f1f1f1;
+    padding-left: 0px;
+    width: 60%;
+    padding-top: 20px;
+}
+
+.homeText p {
+    padding-left: 50%;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.homeText h1 {
+    margin-top: 0px;
+    padding-left: 20%;
+    font-size: 40px;
+}
+
+#home img {
+    width: 40%;
+    display: -webkit-box;
+    margin-left: auto;
+    float: right;
+}
+
+.imageLinks {
+    width: 10%;
+}
+
+#home a {
+    clear: both;
+    width: 25%;
+    height: 25%;
+}
+
+.mainPage span {
+    color: #7CFC00;
+}
+
+.imageLinks img{
+    padding: 10px 10px 10px 0px;
+}
+
+                            /* ABOUT_ME PAGE */
+
+.aboutMePage {
+    background-color: #023020;
+    padding: 20px;
+    clear: both;
+}
+
+.aboutMePage h1{
+    color: #7CFC00;
+    margin-top: 0;
+    text-align: right;
+    margin-bottom: 0; 
+}
+
+.aboutMeContent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.aboutMeContent h2{
+    color: #7CFC00;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutMeContent p{
+    color: #f1f1f1;
+    font-size: 20px;
+    text-align: center;
+} 
+
+.aboutMeWillingToLearn{
+    width: 25%;
+    position: relative;
+    background-color: #023020;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.aboutMeHardWorking{
+    width: 25%;
+    position: relative;
+    background-color: #023020;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.aboutMeTeamPlayer{
+    width: 25%;
+    position: relative;
+    background-color: #023020;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.aboutMeHardWorking img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutMeTeamPlayer img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutMeWillingToLearn img {
+    width: 80%;
+    height: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
+}
+
+                            /*  PROJECTS PAGE */
+
+#projects {
+    background-color: #023020;
+    padding: 20px;
+    clear: left;
+}
+
+#projects h1 {
+    color: #7CFC00;
+    margin-top: 0;
+    text-align: right;
+    margin-bottom: 0; 
+}
+
+.projectContainers {
+    width: 75%;
+    padding: 10px;
+    background-color: #023020;
+    margin: 20px auto;
+}
+
+.projectContainers h2 {
+    color: #7CFC00;
+    text-align: center;
+    font-size: 30px;
+}
+
+.projectContainers p {
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 20px;
+}
+
+.projectContainers img{ 
+    width: 100%;
+}
+
+                            /* CONTACT_ME PAGE */
+
+footer  {
+    background-color: #023020;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer h1 {
+    color: #7CFC00;
+    text-align: center;
+    padding: 20px;
+}
+
+ footer input[type=text], select, textarea {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  footer label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  footer input[type=submit] {
+    background-color: #7CFC00;
+    color: #023020;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  footer input[type=submit]:hover {
+    background-color: #4F7942;
+  }
+  
+  .contactMe {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+
+    text-align: center;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .inputText {
+    color: #7CFC00;
+    font-size: 20px;
+  }
+
+  .footer form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
