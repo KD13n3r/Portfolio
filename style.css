@@ -2,12 +2,11 @@
 
 .cV {
     color: #7CFC00;
-    text-align: center;
 }
 
 .navbar{
     height: 100%;
-    width: 12%;
+    width: 12vw;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -42,13 +41,6 @@
     margin-bottom: 0;
 }
 
-.navDiv {
-    height: 260px;
-    width: 10px;
-    background-color: #f1f1f1;
-    float: left;
-    margin: 10px;
-}
 
                             /* BODY */
 
@@ -66,7 +58,6 @@ body{
 .homeText {
     background-color: #023020;
     color: #f1f1f1;
-    padding-left: 0px;
     width: 60%;
     padding-top: 20px;
 }
@@ -79,25 +70,15 @@ body{
 
 .homeText h1 {
     margin-top: 0px;
-    padding-left: 20%;
+    padding-left: 15%;
     font-size: 4vw;
 }
 
-#home img {
+.me {
     width: 40%;
     display: -webkit-box;
     margin-left: auto;
     float: right;
-}
-
-.imageLinks {
-    width: 10%;
-}
-
-#home a {
-    clear: both;
-    width: 25%;
-    height: 25%;
 }
 
 .mainPage span {
@@ -105,7 +86,11 @@ body{
 }
 
 .imageLinks img{
-    padding: 10px 10px 10px 0px;
+    width: 5%;
+    border-radius: 20px;
+    float: right;
+    display: -webkit-box;
+    margin: 0.5vw;
 }
 
                             /* ABOUT_ME PAGE */
@@ -249,67 +234,65 @@ footer h1 {
     font-size: 2.5vw;
 }
 
- footer input[type=text], select, textarea {
+footer input[type=text], select, textarea {
     width: 75%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
     resize: vertical;
-  }
+}
   
-  footer label {
+footer label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-  }
+}
   
-  footer input[type=submit] {
+footer input[type=submit] {
     background-color: #7CFC00;
     color: #023020;
     padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
     float: left;
-  }
+}
   
-  footer input[type=submit]:hover {
+footer input[type=submit]:hover {
     background-color: #4F7942;
-  }
+}
   
-  .contactMe {
-    border-radius: 5px;
+.contactMe {
     padding: 20px;
-  }
+}
   
-  .col-25 {
+.col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
-
     text-align: center;
-  }
+}
   
-  .col-75 {
+.col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
-  }
+}
 
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  .inputText {
+.inputText {
     color: #7CFC00;
     font-size: 1.5vw;
-  }
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-  .footer form {
+.footer form {
     padding-top: 20px;
     padding-bottom: 20px;
-  }
+}
 
 
 
